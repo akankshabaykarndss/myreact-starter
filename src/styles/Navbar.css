@@ -1,0 +1,28 @@
+/* Navbar container */
+.navbar {
+  background-color: #222;
+  padding: 15px 30px;
+}
+
+/* Remove bullet points */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style links */
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.nav-list a:hover {
+  color: #00bcd4;
+}
